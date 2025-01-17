@@ -61,7 +61,7 @@
   :group 'programming)
 
 (defcustom yari-mode-hook nil
-  "Hooks to run when invoking yari-mode."
+  "Hooks to run when invoking `yari-mode'."
   :group 'yari
   :type 'hook)
 
