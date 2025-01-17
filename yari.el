@@ -100,6 +100,8 @@
     (action . yari))
   "Source for completing RI documentation.")
 
+(autoload 'helm "helm.el")
+
 ;;;###autoload
 (defun yari-helm ()
   (interactive)
