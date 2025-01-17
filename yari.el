@@ -66,10 +66,12 @@
   :type 'hook)
 
 (defcustom yari-ri-program-name "ri"
-  "This constant defines how yari.el will find ri, e.g. `ri1.9'.")
+  "This constant defines how yari.el will find ri, e.g. `ri1.9'."
+  :type '(choice string file))
 
 (defcustom yari-ruby-program-name "ruby"
-  "This constant defines how yari.el will find ruby, e.g. `ruby1.9'.")
+  "This constant defines how yari.el will find ruby, e.g. `ruby1.9'."
+  :type '(choice string file))
 
 (defvar yari-anything-source-ri-pages
   '((name . "RI documentation")
