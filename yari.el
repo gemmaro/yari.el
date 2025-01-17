@@ -81,6 +81,8 @@
     (requires-pattern . 2)
     "Source for completing RI documentation."))
 
+(autoload 'anything "anything.el")
+
 ;;;###autoload
 (defun yari-anything (&optional rehash)
   (interactive (list current-prefix-arg))
