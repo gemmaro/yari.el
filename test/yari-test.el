@@ -37,6 +37,9 @@
 (ert-deftest yari-test-ruby-obarray-for-object-method ()
   (should (member "RDoc::TopLevel#full_name" (yari-ruby-obarray))))
 
+(ert-deftest yari-test-ruby-obarray-for-object-method-array-intersection ()
+  (should (member "Array#&" (yari-ruby-obarray))))
+
 (ert-deftest yari-test-ruby-obarray-should-use-cache ()
   (yari-with-ruby-obarray-cache-mock
    cache-mock
