@@ -1,4 +1,4 @@
-;;; yari.el --- Yet Another RI interface for Emacs  -*- lexical-binding: t; -*-
+;;; yari.el --- Yet Another RI interface for Emacs
 
 ;; Copyright (C) 2010-2013  Aleksei Gusev, Jose Pablo Barrantes, Perry Smith
 
